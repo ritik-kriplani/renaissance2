@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renaissance Festival</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+    <div id="intro-wrapper">
+        <div class="intro-container">
+            <h1 class="intro-title">
+                <span  style="color:red"  class="letter">R</span>
+                <span  style="color:red"   class="letter">e</span>
+                <span  style="color:red"   class="letter">n</span>
+                <span class="letter">n</span>
+                <span class="letter">a</span>
+                <span class="letter">i</span>
+                <span class="letter">s</span>
+                <span class="letter">s</span>
+                <span class="letter">a</span>
+                <span class="letter">n</span>
+                <span class="letter">c</span>
+                <span class="letter">e</span>
+            </h1>
+            <div class="glow-circle"></div>
+            <div class="loading-bar">
+                <div class="progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <ul class="navbar-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#celebrity">Celebrity</a></li>
+            <li><a href="event.html">Events</a></li>
+            <li><a href="#itinerary">Itinerary</a></li>
+            <li><a href="#sponsors">Sponsors</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="register-now.html">Register Now</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </header>
+
+<!-- Main Banner Section -->
+<section class="banner">
+    <div class="balloon left-balloon">
+        <span>13th - 15th April</span>
+    </div>
+    <div class="balloon right-balloon">
+        <span>Prizes Worth 10 Lakh</span>
+    </div>
+    <div class="bannerimg">
+        <img src="image.png" alt="Renaissance Banner" class="banner-image">
+    </div>
+    
+    <!-- New Animated Elements -->
+    <div class="banner-content">
+        <h1>Renaissance</h1>
+        <h2>Unleashing Creativity & Innovation</h2>
+</section>
+
+
+
+   <div class="artisthere"> <!-- About Artist Section -->
+    <div id="about-artist" class="about-artist-section">
+        <h2 class="about-artist-heading">About the Artist</h2>
+        <div class="artist-cards">
+            <div class="artist-card left-card" id="left-card" onclick="showPopOut('left-artist-info')">
+                <img src="website dj.png" alt="Left Artist">
+            </div>
+            <div class="artist-card center-card" id="center-card" onclick="showPopOut('center-artist-info')">
+                <img src="website artist 1.png" alt="Center Artist">
+            </div>
+            <div class="artist-card right-card" id="right-card" onclick="showPopOut('right-artist-info')">
+                <img src="website standup.png" alt="Right Artist">
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <!-- Pop-out Sections for each artist -->
+    <div id="left-artist-info" class="pop-out-section hidden">
+        <p>Information about the Left Artist</p>
+        <button onclick="closePopOut()">Close</button>
+    </div>
+    <div id="center-artist-info" class="pop-out-section hidden">
+        <p>Celebrity Night
+            15 April 2023
+            7:00 PM onwards
+            <bold>ARJUN KAPOOR </bold>
+        </p>
+        <button onclick="closePopOut()">Close</button>
+    </div>
+    <div id="right-artist-info" class="pop-out-section hidden">
+        <p>Information about the Right Artist</p>
+        <button onclick="closePopOut()">Close</button>
+    </div>
+
+   
+
+<script src="index.js"></script>
+
+<section class="horizontal-slider">
+    <div class="slider-track">
+            <!-- Add your 12 images -->
+            <img src="images-for-homepage/gallery-1.webp" alt="Image 1">
+            <img src="images-for-homepage/gallery-2.webp" alt="Image 2">
+            <img src="images-for-homepage/gallery-3.webp" alt="Image 3">
+            <img src="images-for-homepage/gallery-4.webp" alt="Image 4">
+            <img src="images-for-homepage/gallery-5.webp" alt="Image 5">
+            <img src="images-for-homepage/gallery-6.webp" alt="Image 6">
+            <img src="images-for-homepage/gallery-7.webp" alt="Image 7">
+            <img src="images-for-homepage/gallery-8.webp" alt="Image 8">
+            <img src="images-for-homepage/gallery-9.webp" alt="Image 9">
+            <img src="images-for-homepage/gallery-10.webp" alt="Image 10">
+            <img src="images-for-homepage/gallery-11.webp" alt="Image 11">
+            <img src="images-for-homepage/gallery-12.webp" alt="Image 12">
+        </div>
+    </div>
+</section>
+
+    <!-- footer-->
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section logo-section">
+                <img src="REN 23 logo.png" alt="REN Edition XIX Logo" class="footer-logo">
+            </div> 
+            <div>
+                <img src="student council white (1).png" alt="Student Council Logo" class="footer-logo">
+            </div>
+    
+            <div class="footer-section contact-us">
+                <h3>Contact Us</h3>
+                <p>Technical Head: +919782971327<br><strong>(Roanak Khandelwal)</strong></p>
+                <p>Cultural Head: +918209017116<br><strong>(Shubhanker)</strong></p>
+                <p>Splash Head: +917240578521<br><strong>(Rajeev Sharma)</strong></p>
+                <p>For Registration: +917742044215<br><strong>(Tanishk Maheshwari)</strong></p>
+                <p>renaissance@jecrc.ac.in</p>
+            </div>
+    
+            <div class="footer-section follow-us">
+                <h3>Follow Us</h3>
+                <div class="social-group">
+                    <p>JECRC Foundation</p>
+                    <a href="#"><img src="path/to/youtube_icon.png" alt="YouTube"></a>
+                    <a href="#"><img src="path/to/facebook_icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="path/to/instagram_icon.png" alt="Instagram"></a>
+                </div>
+                <div class="social-group">
+                    <p>JECRC Renaissance</p>
+                    <a href="#"><img src="path/to/youtube_icon.png" alt="YouTube"></a>
+                    <a href="#"><img src="path/to/facebook_icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="path/to/instagram_icon.png" alt="Instagram"></a>
+                </div>
+                <div class="social-group">
+                    <p>Media Partner</p>
+                    <a href="#"><img src="path/to/media_partner_logo.png" alt="Media Partner Logo"></a>
+                    <a href="#"><img src="path/to/instagram_icon.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>© Copyright <strong>Jecrc Foundation</strong>. All Rights Reserved. <a href="#">Privacy Policy</a></p>
+            <p>Developed by <strong>Yash Raj Arora | Khushal Jangid | Riya | Archit Jain</strong></p>
+            <p>Graphics Designed by <strong>Shubham Saharan | Dhruv Sharma | Ragini Joshi | Sameer Mittal</strong></p>
+        </div>
+    </footer>
+
+    
+
+    <script>
+        function showPopOut(id) {
+    // Hide any currently visible pop-out sections
+    document.querySelectorAll('.pop-out-section').forEach(section => {
+        section.classList.remove('show');
+    });
+    
+    // Show the selected pop-out section
+    document.getElementById(id).classList.add('show');
+}
+
+function closePopOut() {
+    document.querySelectorAll('.pop-out-section').forEach(section => {
+        section.classList.remove('show');
+    });
+}
+
+    </script>
+    
+</body>
+</html>
